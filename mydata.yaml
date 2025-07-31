@@ -1,0 +1,17 @@
+# moncake
+train: rock_yolo/train
+val: rock_yolo/valid
+test: rock_yolo/test
+nc: 10
+# Classes
+names:
+  0: amphibolite
+  1: gneiss
+  2: granite
+  3: limestone
+  4: olivine
+  5: Phyllite
+  6: sandstone
+  7: serpentinite
+  8: shale
+  9: Vesicular Basalt
